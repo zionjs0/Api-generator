@@ -1,0 +1,1 @@
+let ytdl;try{ytdl=require('@distube/ytdl-core')}catch{throw new Error('module belum ada')}export default async function handler(req,res){const{url}=req.query;let info=await ytdl.getInfo(url);let f=ytdl.chooseFormat(info.formats,{quality:'18'});res.json({status:true,result:f.url})}
