@@ -1,0 +1,7 @@
+{
+  "name": "zion-api",
+  "version": "1.0.0",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.11.5"
+  }
+}
