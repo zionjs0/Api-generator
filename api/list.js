@@ -1,0 +1,1 @@
+export default async function handler(req,res){res.json({status:true,endpoints:["ytmp3","ytmp4","tiktok","igdl","twitter","facebook","pinterest","mediafire","lyrics","google","shortlink","removebg","toanime","quote","joke","waifu","cat","dog","news","cuaca"]})}
